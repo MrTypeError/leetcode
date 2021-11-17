@@ -8,5 +8,7 @@ for i in range(len(nums)):
         Sum=nums[i]+nums[i+1]
         if Sum==target:
             print("[",i,",",i+1,"]")
+        else:
+            pass
 
 
