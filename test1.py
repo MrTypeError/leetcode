@@ -4,5 +4,9 @@ print("Number of list is: ", nums)
 target=int(input("Enter the sum :-"))
 size=int(input("Enter the number of element to Enter :- "))
 
-for i in x:
-    for j in j:
+for i in range(len(nums)): 
+        Sum=nums[i]+nums[i+1]
+        if Sum==target:
+            print("[",i,",",i+1,"]")
+
+
